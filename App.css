@@ -1,0 +1,38 @@
+.user {
+  text-align: justify;
+  color: rgb(0, 0, 5);
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.head {
+  text-align: center;
+  font-size: 60px;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 22%,
+    rgba(47, 113, 117, 0.9164040616246498) 48%,
+    rgba(191, 73, 161, 0.9528186274509804) 75%
+  );
+  color: white;
+}
+.user {
+  border: 1px solid grey;
+  align-items: center;
+  text-align: center;
+  width: 18%;
+  display: inline-block;
+  margin: 8px;
+}
+.user:hover {
+  background-color: rgba(191, 73, 161, 0.9528186274509804);
+  transform: scale(1, 1.1);
+  cursor: pointer;
+}
